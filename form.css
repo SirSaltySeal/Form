@@ -11,8 +11,10 @@ body {
     height: 100vh;
     justify-content: center;
     align-items: center;
-    background: linear-gradient(120deg,#2980b9, #8e44ad);
+    background: linear-gradient(120deg,#b9295b, #7544ad);
     background-size: cover;
+    min-height: 100vh;
+    flex-direction: column;
 }
 
 container{
@@ -91,6 +93,12 @@ container{
     color: rgb(255, 255, 255);
 }
 
+p 
+{
+    margin: 5px;
+    color: white;
+}
+
 @media(max-width: 600px){
     .container{
         min-width: 280px;
@@ -119,4 +127,10 @@ container{
     .main-user-info::-webkit-scrollbar{
         width: 0;
     }
+
+    footer
+    {
+        margin-top: auto;
+    }
+
 }
